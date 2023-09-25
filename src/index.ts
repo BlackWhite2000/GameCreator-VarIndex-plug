@@ -8,11 +8,13 @@ module CommandExecute {
     p: CustomCommandParams_15001,
   ): void {
     function updateVariable(p: CustomCommandParams_15001) {
-      const variableSource = p.varG
+      const variableSource: Variable = p.varG
         ? ClientWorld.variable
         : Game.player.variable
 
-      const varIndex: number = variableSource.getVariable(p.varIndex)
+      const varIndex: number = variableSource.getVariable(
+        p.varG ? p.varIndexG : p.varIndex,
+      )
       if (p.varType === 0) {
         variableSource.setVariable(
           p.varG ? p.varGetNumG : p.varGetNum,
