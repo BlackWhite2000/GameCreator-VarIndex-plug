@@ -1,0 +1,41 @@
+[
+    {
+        "allPlugUseData": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            [],
+            [],
+            [],
+            [],
+            [
+                15001
+            ],
+            [],
+            null,
+            null,
+            [],
+            [
+                {
+                    "filePath": "Game/GCplug/824/VarIndex.ts",
+                    "isServer": false
+                }
+            ],
+            null,
+            null,
+            [],
+            [],
+            []
+        ],
+        "id": 824,
+        "name": "获取变量索引值 v1.1",
+        "lastUpdateTime": 1695619582,
+        "author": "BlackWhite",
+        "gcver": null
+    }
+]
